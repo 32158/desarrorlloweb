@@ -404,9 +404,13 @@ input{
 @media (min-width:790px){
 
     .schedule{
+        width: max-content;
         display: block;
         padding: 1rem;
+
+        margin:auto;
     }
+
     table thead{
         width: 100%;
     }
