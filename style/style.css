@@ -227,7 +227,7 @@ table tbody{
     border: none;
     outline: 1px solid var(--gris-bajo);
     border-radius: 5px;
-    padding: 1rem 2rem;
+    padding: 1rem 1.2rem;
     display: block;
     background: transparent;
 
