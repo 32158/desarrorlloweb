@@ -43,7 +43,7 @@ formulario.addEventListener('submit',e =>{
     message__box.innerHTML=`
         <span><strong>Nombre:</strong> ${data.get('name').charAt(0).toUpperCase()+data.get('name').slice(1)}</span>
         <span><strong>Correo:</strong> ${data.get("email")}</span>`
-
+        formulario.reset() 
 })
 
 let conten=document.getElementById('prev__')
